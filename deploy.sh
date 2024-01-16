@@ -1,5 +1,5 @@
 #!/bin/bash
-
+set -x
 url="http://13.201.20.130/repository/maven-snapshots/com/example/demo/2.1-SNAPSHOT/demo-2.1-20240115.165742-1.pom"
 
 # Check if the version exists using curl and inspecting the HTTP response code
